@@ -16,7 +16,7 @@ class ISelenium(unittest.TestCase):
     def get_config(self):
         config = configparser.ConfigParser()
 #         config.read(os.path.join(os.environ['USERPROFILE'], 'iselenium.ini'))
-        config.read("C:\\Users\Sue\iselenium.ini")
+        config.read("C:\\Users\Administrator\iselenium.ini")
         print("---------")
         print(config)
         print("+++++++++")
